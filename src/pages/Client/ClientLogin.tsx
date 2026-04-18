@@ -1,7 +1,6 @@
-import { Card } from "@/components/ui"
 import dogcamp from '../../assets/dogcamp.png'
 import PetLogo from '../../assets/PetLogo.png'
-
+import { LoginForm } from '@/components/Client/LoginForm'
 
 
 export function ClientLogin(){
@@ -16,7 +15,7 @@ export function ClientLogin(){
                     <img className='h-75' src={dogcamp}></img>
                 </div>
                 <div className='h-full w-full flex justify-center'>
-                    
+                    <LoginForm></LoginForm>
                 </div>
             </div>
         </div>
